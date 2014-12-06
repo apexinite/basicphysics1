@@ -156,7 +156,7 @@
         <UserProperties />
         <ComplexShape />
       </Assets>
-      <Layers Name="BG" Visible="true" Id="8ea47da3-56d7-46f2-aef8-50572116ce56" Count="3">
+      <Layers Name="BG" Visible="true" Id="8ea47da3-56d7-46f2-aef8-50572116ce56" Count="6">
         <LDObjectImage>
           <Name>background</Name>
           <Locked>false</Locked>
@@ -224,6 +224,92 @@
           <AssetKey>73cc7476-6e76-4fd5-a118-216531a8d6c5</AssetKey>
           <ComplexShape />
         </LDObjectImage>
+        <LDObjectButton>
+          <Name>btnChangeLvl</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0.5</AnchorX>
+          <AnchorY>0.5</AnchorY>
+          <ReferencePoint>TopLeft</ReferencePoint>
+          <X1>160</X1>
+          <X2>256</X2>
+          <Y1>160</Y1>
+          <Y2>224</Y2>
+          <X>80</X>
+          <XT>80</XT>
+          <Y>64</Y>
+          <YT>64</YT>
+          <Width>96</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>a20404ad-6cb5-4616-95fb-f28cfc5d1955</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName>Main Body</FixtureName>
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>0</assetWidth>
+          <assetHeight>0</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <ShowDefault>true</ShowDefault>
+          <Text>Change Level</Text>
+          <TextColorARGB>-1</TextColorARGB>
+          <FontName>native.systemFont</FontName>
+          <FontSize>13</FontSize>
+          <UpImage>
+            <Audio>false</Audio>
+            <ImageKey />
+            <ImageName />
+          </UpImage>
+          <DownImage>
+            <Audio>false</Audio>
+            <ImageKey />
+            <ImageName />
+          </DownImage>
+          <CornerRadius>0</CornerRadius>
+          <StrokeColorARGB>-1</StrokeColorARGB>
+          <StrokeWidth>1</StrokeWidth>
+          <FillColorARGB>-16777216</FillColorARGB>
+          <oCornerRadius>0</oCornerRadius>
+          <oStrokeColorARGB>-1</oStrokeColorARGB>
+          <oStrokeWidth>1</oStrokeWidth>
+          <oFillColorARGB>-16777216</oFillColorARGB>
+        </LDObjectButton>
         <UserProperties />
         <GridX>16</GridX>
         <GridY>16</GridY>
@@ -268,7 +354,7 @@
             <BodyShape>Rectangle</BodyShape>
             <Polygons />
             <IsSensor>false</IsSensor>
-            <Radius>10</Radius>
+            <Radius>0</Radius>
             <AngularDamping>0</AngularDamping>
             <LinearDamping>0</LinearDamping>
             <FixedRotation>false</FixedRotation>
@@ -391,6 +477,1570 @@
       </AssetGroups>
       <WireFrame>false</WireFrame>
       <Name>level1</Name>
+      <BackColorARGB>-9868951</BackColorARGB>
+      <CanvasWidth>1334</CanvasWidth>
+      <CanvasHeight>750</CanvasHeight>
+      <Export>true</Export>
+      <ParallaxEnabled>false</ParallaxEnabled>
+      <ParallaxInfinite>false</ParallaxInfinite>
+      <ParallaxDamping>1</ParallaxDamping>
+      <MarginX>128</MarginX>
+      <MarginY>128</MarginY>
+      <UserProperties />
+      <DebugMode>Normal</DebugMode>
+      <GravityX>0</GravityX>
+      <GravityY>9.8</GravityY>
+      <PositionIterations>8</PositionIterations>
+      <VelocityIterations>3</VelocityIterations>
+    </LDObjectLevel>
+    <LDObjectLevel TargetWidth="1334" TargetHeight="750" m_Target="16" m_GravityX="0" m_GravityY="9.8" m_marginX="128" m_marginY="128">
+      <Assets>
+        <Audio>false</Audio>
+        <TexturePacker />
+        <TexturePackerXML />
+        <Key>e3368edd-2b6f-49da-81e9-af726e6b87fb</Key>
+        <FileName>ballbeach_png</FileName>
+        <File>basicphysics1\images\ballbeach.png</File>
+        <AnchorX>0</AnchorX>
+        <AnchorY>0</AnchorY>
+        <ReferencePoint>Centre</ReferencePoint>
+        <Width>64</Width>
+        <Height>64</Height>
+        <Export>true</Export>
+        <Frame>0</Frame>
+        <FrameCount>0</FrameCount>
+        <X>0</X>
+        <Y>0</Y>
+        <TextureWidth>0</TextureWidth>
+        <TextureHeight>0</TextureHeight>
+        <oWidth>0</oWidth>
+        <oHeight>0</oHeight>
+        <oX>0</oX>
+        <oY>0</oY>
+        <Physics>
+          <IsEnabled>false</IsEnabled>
+          <FixtureName />
+          <LinkFixtures>true</LinkFixtures>
+          <BodyType>Static</BodyType>
+          <Density>1</Density>
+          <Friction>0</Friction>
+          <Bounce>0</Bounce>
+          <BodyShape>Rectangle</BodyShape>
+          <Polygons />
+          <IsSensor>false</IsSensor>
+          <Radius>0</Radius>
+          <AngularDamping>0</AngularDamping>
+          <LinearDamping>0</LinearDamping>
+          <FixedRotation>false</FixedRotation>
+          <IsSleepingAllowed>true</IsSleepingAllowed>
+          <IsBullet>false</IsBullet>
+          <GravityScale>1</GravityScale>
+          <CategoryBits>NotSet</CategoryBits>
+          <MaskBits>0</MaskBits>
+          <GroupIndex>0</GroupIndex>
+          <HandleCollision>false</HandleCollision>
+        </Physics>
+        <AnimSequence />
+        <ObjectClass />
+        <UserProperties />
+        <ComplexShape />
+      </Assets>
+      <Layers Name="Layer 1" Visible="true" Id="37cae65d-29b9-4bec-8479-2362e15d25c4" Count="22">
+        <LDObjectImage>
+          <Name>img_1</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>400</X1>
+          <X2>464</X2>
+          <Y1>288</Y1>
+          <Y2>352</Y2>
+          <X>272</X>
+          <XT>272</XT>
+          <Y>160</Y>
+          <YT>160</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>0efa166b-ccaa-42bf-9119-7e783a95d0b6</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_2</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>832</X1>
+          <X2>896</X2>
+          <Y1>240</Y1>
+          <Y2>304</Y2>
+          <X>704</X>
+          <XT>704</XT>
+          <Y>112</Y>
+          <YT>112</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>692d45fd-150b-4d08-9331-0038a840f166</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_3</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>512</X1>
+          <X2>576</X2>
+          <Y1>576</Y1>
+          <Y2>640</Y2>
+          <X>384</X>
+          <XT>384</XT>
+          <Y>448</Y>
+          <YT>448</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>3070810b-c1c4-4e7c-aa45-2758682b2f5e</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_4</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>672</X1>
+          <X2>736</X2>
+          <Y1>400</Y1>
+          <Y2>464</Y2>
+          <X>544</X>
+          <XT>544</XT>
+          <Y>272</Y>
+          <YT>272</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>6d6c56fd-191f-4fd6-985b-79b738a9086e</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_5</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>848</X1>
+          <X2>912</X2>
+          <Y1>624</Y1>
+          <Y2>688</Y2>
+          <X>720</X>
+          <XT>720</XT>
+          <Y>496</Y>
+          <YT>496</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>2adef377-374c-4b27-96f5-cd0fe1b0eb8a</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_6</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>272</X1>
+          <X2>336</X2>
+          <Y1>544</Y1>
+          <Y2>608</Y2>
+          <X>144</X>
+          <XT>144</XT>
+          <Y>416</Y>
+          <YT>416</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>c99ba157-e288-4ee9-9e02-4233460bc89d</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_7</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>272</X1>
+          <X2>336</X2>
+          <Y1>336</Y1>
+          <Y2>400</Y2>
+          <X>144</X>
+          <XT>144</XT>
+          <Y>208</Y>
+          <YT>208</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>60ce793a-1d61-4959-a22e-63242e54443e</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_8</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>272</X1>
+          <X2>336</X2>
+          <Y1>128</Y1>
+          <Y2>192</Y2>
+          <X>144</X>
+          <XT>144</XT>
+          <Y>0</Y>
+          <YT>0</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>61215657-2ce3-4a0b-b470-d624408a3619</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_9</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>160</X1>
+          <X2>224</X2>
+          <Y1>256</Y1>
+          <Y2>320</Y2>
+          <X>32</X>
+          <XT>32</XT>
+          <Y>128</Y>
+          <YT>128</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>2b7ef175-03d8-4bb2-baca-4a92645055d4</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_10</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>464</X1>
+          <X2>528</X2>
+          <Y1>176</Y1>
+          <Y2>240</Y2>
+          <X>336</X>
+          <XT>336</XT>
+          <Y>48</Y>
+          <YT>48</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>3cf39806-324e-4dbb-ad8c-33dfe1fd534a</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_11</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>688</X1>
+          <X2>752</X2>
+          <Y1>224</Y1>
+          <Y2>288</Y2>
+          <X>560</X>
+          <XT>560</XT>
+          <Y>96</Y>
+          <YT>96</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>743d66da-7f7b-420e-8a29-25c42630ab09</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_12</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>464</X1>
+          <X2>528</X2>
+          <Y1>432</Y1>
+          <Y2>496</Y2>
+          <X>336</X>
+          <XT>336</XT>
+          <Y>304</Y>
+          <YT>304</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>ff9022bf-60b4-45de-9105-e1a8e38953ce</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_13</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>944</X1>
+          <X2>1008</X2>
+          <Y1>384</Y1>
+          <Y2>448</Y2>
+          <X>816</X>
+          <XT>816</XT>
+          <Y>256</Y>
+          <YT>256</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>1d382fa8-562a-4f63-8dda-9284f6b2b93b</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_14</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>864</X1>
+          <X2>928</X2>
+          <Y1>464</Y1>
+          <Y2>528</Y2>
+          <X>736</X>
+          <XT>736</XT>
+          <Y>336</Y>
+          <YT>336</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>b3af9841-6586-42ca-9a3d-0f6c13f89517</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_15</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>800</X1>
+          <X2>864</X2>
+          <Y1>512</Y1>
+          <Y2>576</Y2>
+          <X>672</X>
+          <XT>672</XT>
+          <Y>384</Y>
+          <YT>384</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>7eeddbdf-3b25-41d3-b226-ae3e15871ea9</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_16</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>688</X1>
+          <X2>752</X2>
+          <Y1>528</Y1>
+          <Y2>592</Y2>
+          <X>560</X>
+          <XT>560</XT>
+          <Y>400</Y>
+          <YT>400</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>ff5412d2-ad42-4bef-9d87-bcb823fdf78c</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_17</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>208</X1>
+          <X2>272</X2>
+          <Y1>448</Y1>
+          <Y2>512</Y2>
+          <X>80</X>
+          <XT>80</XT>
+          <Y>320</Y>
+          <YT>320</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>6f568418-a034-4b16-8277-11de875830bd</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_18</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>560</X1>
+          <X2>624</X2>
+          <Y1>320</Y1>
+          <Y2>384</Y2>
+          <X>432</X>
+          <XT>432</XT>
+          <Y>192</Y>
+          <YT>192</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>39ee3a0d-acff-4779-b626-9fc9397e41d0</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_19</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>992</X1>
+          <X2>1056</X2>
+          <Y1>672</Y1>
+          <Y2>736</Y2>
+          <X>864</X>
+          <XT>864</XT>
+          <Y>544</Y>
+          <YT>544</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>262c7143-4a4b-4911-b42f-ab5668c43877</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_20</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>752</X1>
+          <X2>816</X2>
+          <Y1>736</Y1>
+          <Y2>800</Y2>
+          <X>624</X>
+          <XT>624</XT>
+          <Y>608</Y>
+          <YT>608</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>302ede30-6a6e-423f-9771-fbaeb42f1eb0</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_21</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>496</X1>
+          <X2>560</X2>
+          <Y1>736</Y1>
+          <Y2>800</Y2>
+          <X>368</X>
+          <XT>368</XT>
+          <Y>608</Y>
+          <YT>608</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>6f25a51c-9bad-47fd-98c7-e2e280f4d61a</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>img_22</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>336</X1>
+          <X2>400</X2>
+          <Y1>608</Y1>
+          <Y2>672</Y2>
+          <X>208</X>
+          <XT>208</XT>
+          <Y>480</Y>
+          <YT>480</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>b84e51db-7eb8-44aa-9fab-cf79627fa1c3</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>e3368edd-2b6f-49da-81e9-af726e6b87fb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <UserProperties />
+        <GridX>16</GridX>
+        <GridY>16</GridY>
+        <SnapToGrid>true</SnapToGrid>
+        <ShowGrid>true</ShowGrid>
+        <ShowBodies>false</ShowBodies>
+        <ParallaxRepeat>false</ParallaxRepeat>
+        <ParallaxSpeedX>0</ParallaxSpeedX>
+        <ParallaxSpeedY>0</ParallaxSpeedY>
+        <ParallaxCulling>None</ParallaxCulling>
+      </Layers>
+      <AssetGroups>
+        <Group>Assets</Group>
+        <GroupState>80</GroupState>
+      </AssetGroups>
+      <AssetGroups>
+        <Group>Audio</Group>
+        <GroupState>80</GroupState>
+      </AssetGroups>
+      <WireFrame>false</WireFrame>
+      <Name>Level2</Name>
       <BackColorARGB>-9868951</BackColorARGB>
       <CanvasWidth>1334</CanvasWidth>
       <CanvasHeight>750</CanvasHeight>
