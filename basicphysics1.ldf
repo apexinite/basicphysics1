@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LDObjectLevelPack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>My Game</Name>
+  <Level>
+    <LDObjectLevel TargetWidth="1334" TargetHeight="750" m_Target="16" m_GravityX="0" m_GravityY="9.8" m_marginX="128" m_marginY="128">
+      <Assets>
+        <Audio>false</Audio>
+        <TexturePacker />
+        <TexturePackerXML />
+        <Key>b42a1e72-434c-469d-88f2-260ce352cccb</Key>
+        <FileName>ballbeach_png</FileName>
+        <File>D:\Ben's Files LEGIT\Level Director\Projects\basicphysics1\images\ballbeach.png</File>
+        <AnchorX>0</AnchorX>
+        <AnchorY>0</AnchorY>
+        <ReferencePoint>Centre</ReferencePoint>
+        <Width>64</Width>
+        <Height>64</Height>
+        <Export>true</Export>
+        <Frame>0</Frame>
+        <FrameCount>0</FrameCount>
+        <X>0</X>
+        <Y>0</Y>
+        <TextureWidth>0</TextureWidth>
+        <TextureHeight>0</TextureHeight>
+        <oWidth>0</oWidth>
+        <oHeight>0</oHeight>
+        <oX>0</oX>
+        <oY>0</oY>
+        <Physics>
+          <IsEnabled>false</IsEnabled>
+          <FixtureName />
+          <LinkFixtures>true</LinkFixtures>
+          <BodyType>Static</BodyType>
+          <Density>1</Density>
+          <Friction>0</Friction>
+          <Bounce>0</Bounce>
+          <BodyShape>Rectangle</BodyShape>
+          <Polygons />
+          <IsSensor>false</IsSensor>
+          <Radius>0</Radius>
+          <AngularDamping>0</AngularDamping>
+          <LinearDamping>0</LinearDamping>
+          <FixedRotation>false</FixedRotation>
+          <IsSleepingAllowed>true</IsSleepingAllowed>
+          <IsBullet>false</IsBullet>
+          <GravityScale>1</GravityScale>
+          <CategoryBits>NotSet</CategoryBits>
+          <MaskBits>0</MaskBits>
+          <GroupIndex>0</GroupIndex>
+          <HandleCollision>false</HandleCollision>
+        </Physics>
+        <AnimSequence />
+        <ObjectClass />
+        <UserProperties />
+        <ComplexShape />
+      </Assets>
+      <Assets>
+        <Audio>false</Audio>
+        <TexturePacker />
+        <TexturePackerXML />
+        <Key>46a80ec3-4509-4e2e-89f4-f48532109a36</Key>
+        <FileName>bestgrass_png</FileName>
+        <File>D:\Ben's Files LEGIT\Level Director\Projects\basicphysics1\images\bestgrass.png</File>
+        <AnchorX>0</AnchorX>
+        <AnchorY>0</AnchorY>
+        <ReferencePoint>Centre</ReferencePoint>
+        <Width>1334</Width>
+        <Height>160</Height>
+        <Export>true</Export>
+        <Frame>0</Frame>
+        <FrameCount>0</FrameCount>
+        <X>0</X>
+        <Y>0</Y>
+        <TextureWidth>0</TextureWidth>
+        <TextureHeight>0</TextureHeight>
+        <oWidth>0</oWidth>
+        <oHeight>0</oHeight>
+        <oX>0</oX>
+        <oY>0</oY>
+        <Physics>
+          <IsEnabled>false</IsEnabled>
+          <FixtureName />
+          <LinkFixtures>true</LinkFixtures>
+          <BodyType>Static</BodyType>
+          <Density>1</Density>
+          <Friction>0</Friction>
+          <Bounce>0</Bounce>
+          <BodyShape>Rectangle</BodyShape>
+          <Polygons />
+          <IsSensor>false</IsSensor>
+          <Radius>0</Radius>
+          <AngularDamping>0</AngularDamping>
+          <LinearDamping>0</LinearDamping>
+          <FixedRotation>false</FixedRotation>
+          <IsSleepingAllowed>true</IsSleepingAllowed>
+          <IsBullet>false</IsBullet>
+          <GravityScale>1</GravityScale>
+          <CategoryBits>NotSet</CategoryBits>
+          <MaskBits>0</MaskBits>
+          <GroupIndex>0</GroupIndex>
+          <HandleCollision>false</HandleCollision>
+        </Physics>
+        <AnimSequence />
+        <ObjectClass />
+        <UserProperties />
+        <ComplexShape />
+      </Assets>
+      <Assets>
+        <Audio>false</Audio>
+        <TexturePacker />
+        <TexturePackerXML />
+        <Key>73cc7476-6e76-4fd5-a118-216531a8d6c5</Key>
+        <FileName>bg_png</FileName>
+        <File>D:\Ben's Files LEGIT\Level Director\Projects\basicphysics1\images\bg.png</File>
+        <AnchorX>0</AnchorX>
+        <AnchorY>0</AnchorY>
+        <ReferencePoint>Centre</ReferencePoint>
+        <Width>1334</Width>
+        <Height>750</Height>
+        <Export>true</Export>
+        <Frame>0</Frame>
+        <FrameCount>0</FrameCount>
+        <X>0</X>
+        <Y>0</Y>
+        <TextureWidth>0</TextureWidth>
+        <TextureHeight>0</TextureHeight>
+        <oWidth>0</oWidth>
+        <oHeight>0</oHeight>
+        <oX>0</oX>
+        <oY>0</oY>
+        <Physics>
+          <IsEnabled>false</IsEnabled>
+          <FixtureName />
+          <LinkFixtures>true</LinkFixtures>
+          <BodyType>Static</BodyType>
+          <Density>1</Density>
+          <Friction>0</Friction>
+          <Bounce>0</Bounce>
+          <BodyShape>Rectangle</BodyShape>
+          <Polygons />
+          <IsSensor>false</IsSensor>
+          <Radius>0</Radius>
+          <AngularDamping>0</AngularDamping>
+          <LinearDamping>0</LinearDamping>
+          <FixedRotation>false</FixedRotation>
+          <IsSleepingAllowed>true</IsSleepingAllowed>
+          <IsBullet>false</IsBullet>
+          <GravityScale>1</GravityScale>
+          <CategoryBits>NotSet</CategoryBits>
+          <MaskBits>0</MaskBits>
+          <GroupIndex>0</GroupIndex>
+          <HandleCollision>false</HandleCollision>
+        </Physics>
+        <AnimSequence />
+        <ObjectClass />
+        <UserProperties />
+        <ComplexShape />
+      </Assets>
+      <Layers Name="BG" Visible="true" Id="8ea47da3-56d7-46f2-aef8-50572116ce56" Count="3">
+        <LDObjectImage>
+          <Name>background</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>128</X1>
+          <X2>1456</X2>
+          <Y1>128</Y1>
+          <Y2>880</Y2>
+          <X>0</X>
+          <XT>0</XT>
+          <Y>0</Y>
+          <YT>0</YT>
+          <Width>1328</Width>
+          <Height>752</Height>
+          <Angle>0</Angle>
+          <Id>a74ed872-4d8e-4f88-b77b-959ec44e3289</Id>
+          <Physics>
+            <IsEnabled>false</IsEnabled>
+            <FixtureName />
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>0</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>1334</assetWidth>
+          <assetHeight>750</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>73cc7476-6e76-4fd5-a118-216531a8d6c5</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <UserProperties />
+        <GridX>16</GridX>
+        <GridY>16</GridY>
+        <SnapToGrid>true</SnapToGrid>
+        <ShowGrid>true</ShowGrid>
+        <ShowBodies>false</ShowBodies>
+        <ParallaxRepeat>false</ParallaxRepeat>
+        <ParallaxSpeedX>0</ParallaxSpeedX>
+        <ParallaxSpeedY>0</ParallaxSpeedY>
+        <ParallaxCulling>None</ParallaxCulling>
+      </Layers>
+      <Layers Name="FG" Visible="true" Id="6b091f2d-e2bc-410f-b8d4-aa63cb56f846" Count="6">
+        <LDObjectImage>
+          <Name>grass</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>128</X1>
+          <X2>1464</X2>
+          <Y1>720</Y1>
+          <Y2>880</Y2>
+          <X>0</X>
+          <XT>0</XT>
+          <Y>592</Y>
+          <YT>592</YT>
+          <Width>1336</Width>
+          <Height>160</Height>
+          <Angle>0</Angle>
+          <Id>1b6cc6b4-6c6c-4d3f-9983-187a1adba29a</Id>
+          <Physics>
+            <IsEnabled>true</IsEnabled>
+            <FixtureName>Shape 1</FixtureName>
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Static</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>0</Bounce>
+            <BodyShape>Rectangle</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>10</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>1334</assetWidth>
+          <assetHeight>160</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>46a80ec3-4509-4e2e-89f4-f48532109a36</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <LDObjectImage>
+          <Name>ball</Name>
+          <Locked>false</Locked>
+          <Visible>true</Visible>
+          <BlendMode>Normal</BlendMode>
+          <Alpha>1</Alpha>
+          <AnchorX>0</AnchorX>
+          <AnchorY>0</AnchorY>
+          <ReferencePoint>Centre</ReferencePoint>
+          <X1>720</X1>
+          <X2>784</X2>
+          <Y1>248</Y1>
+          <Y2>312</Y2>
+          <X>592</X>
+          <XT>592</XT>
+          <Y>120</Y>
+          <YT>120</YT>
+          <Width>64</Width>
+          <Height>64</Height>
+          <Angle>0</Angle>
+          <Id>f303f057-afe7-48b8-8198-b0ed0097340f</Id>
+          <Physics>
+            <IsEnabled>true</IsEnabled>
+            <FixtureName>Shape 1</FixtureName>
+            <LinkFixtures>true</LinkFixtures>
+            <BodyType>Dynamic</BodyType>
+            <Density>1</Density>
+            <Friction>0</Friction>
+            <Bounce>1</Bounce>
+            <BodyShape>Round</BodyShape>
+            <Polygons />
+            <IsSensor>false</IsSensor>
+            <Radius>28</Radius>
+            <AngularDamping>0</AngularDamping>
+            <LinearDamping>0</LinearDamping>
+            <FixedRotation>false</FixedRotation>
+            <IsSleepingAllowed>true</IsSleepingAllowed>
+            <IsBullet>false</IsBullet>
+            <GravityScale>1</GravityScale>
+            <CategoryBits>NotSet</CategoryBits>
+            <MaskBits>0</MaskBits>
+            <GroupIndex>0</GroupIndex>
+            <HandleCollision>false</HandleCollision>
+          </Physics>
+          <ObjectClass />
+          <UserProperties />
+          <assetWidth>64</assetWidth>
+          <assetHeight>64</assetHeight>
+          <DragEvent>false</DragEvent>
+          <FollowPath>
+            <Path />
+            <Repeats>-1</Repeats>
+            <Rebound>false</Rebound>
+            <Delay>1</Delay>
+            <AutoStart>false</AutoStart>
+            <Rotate>false</Rotate>
+            <Direction>Forward</Direction>
+            <XFlip>false</XFlip>
+            <YFlip>false</YFlip>
+          </FollowPath>
+          <Gradient>None</Gradient>
+          <GradientColorARGB>16777215</GradientColorARGB>
+          <FlipX>false</FlipX>
+          <FlipY>false</FlipY>
+          <AssetKey>b42a1e72-434c-469d-88f2-260ce352cccb</AssetKey>
+          <ComplexShape />
+        </LDObjectImage>
+        <UserProperties />
+        <GridX>8</GridX>
+        <GridY>8</GridY>
+        <SnapToGrid>true</SnapToGrid>
+        <ShowGrid>true</ShowGrid>
+        <ShowBodies>false</ShowBodies>
+        <ParallaxRepeat>false</ParallaxRepeat>
+        <ParallaxSpeedX>0</ParallaxSpeedX>
+        <ParallaxSpeedY>0</ParallaxSpeedY>
+        <ParallaxCulling>None</ParallaxCulling>
+      </Layers>
+      <AssetGroups>
+        <Group>Assets</Group>
+        <GroupState>80</GroupState>
+      </AssetGroups>
+      <AssetGroups>
+        <Group>Audio</Group>
+        <GroupState>80</GroupState>
+      </AssetGroups>
+      <WireFrame>false</WireFrame>
+      <Name>level1</Name>
+      <BackColorARGB>-9868951</BackColorARGB>
+      <CanvasWidth>1334</CanvasWidth>
+      <CanvasHeight>750</CanvasHeight>
+      <Export>true</Export>
+      <ParallaxEnabled>false</ParallaxEnabled>
+      <ParallaxInfinite>false</ParallaxInfinite>
+      <ParallaxDamping>1</ParallaxDamping>
+      <MarginX>128</MarginX>
+      <MarginY>128</MarginY>
+      <UserProperties />
+      <DebugMode>Normal</DebugMode>
+      <GravityX>0</GravityX>
+      <GravityY>9.8</GravityY>
+      <PositionIterations>8</PositionIterations>
+      <VelocityIterations>3</VelocityIterations>
+    </LDObjectLevel>
+  </Level>
+  <ClassList />
+  <ZoomIndex>2</ZoomIndex>
+  <CurrentLevel>0</CurrentLevel>
+  <ExportFolder>basicphysics1</ExportFolder>
+  <ExportExtension>lua</ExportExtension>
+  <RelativePaths>true</RelativePaths>
+  <Graphics2>true</Graphics2>
+  <AnchorX>0</AnchorX>
+  <AnchorY>0</AnchorY>
+</LDObjectLevelPack>
